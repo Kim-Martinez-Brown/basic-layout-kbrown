@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing: border-box;}
+
+body{
+	background-image:url("images/natural-wooden-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+	#container{
+		width: 1000px;
+		height: 930px;
+		background-image: url("images/brown-frosting-texture-background-close-up.jpg");
+		margin: 0 auto;
+		border-radius: 30px;
+		}
+
+	header{
+		width: 980px;
+		height: 120px;
+		background-color: #079B83;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: 'Flavors', cursive;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		}
+	
+	nav{ 
+		width: 980px;
+		height: 50px;
+		background-color: #DC3C7D;
+		margin-top: 10px;
+		margin-right:10px;
+		margin-left: 10px;
+		}
+	
+	aside{
+		height: 620px;
+		width: 225px;
+		background-color: #EFCD08;
+		margin-right: 25px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		float:left;
+		}
+
+	
+	#main{
+	
+		width: 725px;
+		height: 620px;
+		margin-top:20px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		float: right;
+		padding-right: 10px;
+		}
+
+	.articlePortion{
+		background-color: #0083BB;
+		width: 32%;
+		height: 200px;
+		float: right;
+		bottom: 10px;
+		margin-top:30px;
+	
+		}
+
+	.small2{
+		margin-right: 10px;
+		margin-left: 10px;
+		}
+
+.articleLarge{
+	background-color: #DF5307;
+	width:705px;
+	height:325px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+		
+}
+footer{
+	height: 50px;
+	width: 980px;
+	background-color: #079B83;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	clear: both;
+	
+}
+h1{
+	font-size: 100px;
+	text-align:center;
+		
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+}
